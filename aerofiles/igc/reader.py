@@ -154,7 +154,12 @@ class LowLevelReader:
     """
     A low level reader for the IGC flight log file format.
 
-    see http://carrier.csi.cam.ac.uk/forsterlewis/soaring/igc_file_format/igc_format_2008.html
+    see https://web.archive.org/web/20170713094510/http://carrier.csi.cam.ac.uk:80/forsterlewis/soaring/igc_file_format/igc_format_2008.html
+     https://web.archive.org/web/20100723171307/http://www.fai.org:80/gliding/gnss/tech_spec_gnss.asp
+     https://web.archive.org/web/20100703013152/http://www.fai.org/gliding/system/files/tech_spec_gnss.pdf
+
+    current specification https://www.fai.org/igc-documents
+     https://www.fai.org/sites/default/files/igc_fr_specification_2022_with_al7_2022-1-31.pdf
     """
 
     def __init__(self, file_obj):
