@@ -13,6 +13,7 @@ from aerofiles.flarmcfg import (
 
 from aerofiles.igc import (
     Writer as IGCWriter,
+    Reader as IGCReader,
 )
 
 from aerofiles.openair import (
